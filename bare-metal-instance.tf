@@ -2,9 +2,12 @@
 # The provider needs to be configured with the proper credentials before it can be used
 # https://registry.terraform.io/providers/phoenixnap/pnap/latest/docs
 
+variable "ssh_key" {
+  type        = string
+  description = "A SSH Key that will be installed on the server."
+}
+
 provider "pnap" {
-  client_id = var.client_id
-  client_secret = var.client_secret
 }
 
 # Create a SSH key
