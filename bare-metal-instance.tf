@@ -21,7 +21,7 @@ resource "pnap_ssh_key" "ssh-key-1" {
 resource "pnap_server" "Test-Server-1" {
     hostname = "Test-Server-1"
     os = "ubuntu/bionic"
-    type = "s1.c1.medium"
+    type = "s2.c1.small"
     location = "PHX"
     install_default_ssh_keys = true
     ssh_key_ids = [pnap_ssh_key.ssh-key-1.id]
