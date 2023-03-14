@@ -5,6 +5,6 @@ For more details visit provider docs -> https://registry.terraform.io/providers/
 
 ![plot](./images/terraform_view.png)
 
-![plot](./images/phxnap_view_1.png)
+![plot](./images/phxnap_veiw_1.png)
 
-![plot](./images/phxnap_view_2.png)
+![plot](./images/phxnap_veiw_2.png)
