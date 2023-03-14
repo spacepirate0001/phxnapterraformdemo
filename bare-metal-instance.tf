@@ -27,6 +27,6 @@ resource "pnap_server" "Test-Server-1" {
     ssh_key_ids = [pnap_ssh_key.ssh-key-1.id]
     action = "powered-on"
     cloud_init {
-        user_data = filebase64("~/phxnapterraformdemo/create-http-server.txt")
+        user_data = filebase64("./create-http-server.txt")
     }
 }
